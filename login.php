@@ -30,11 +30,6 @@
                     <input type="password" name="clave" placeholder="Contraseña" required>
                 </div>
 
-                <div class="opciones">
-                    <label><input type="checkbox" name="recordar"> Recuérdame</label>
-                    <a href="#">¿Olvidaste tu contraseña?</a>
-                </div>
-
                 <div class="botones">
                     <button type="submit">Iniciar sesión</button>
                     <a href="registro.php" class="enlace-boton">Crear cuenta</a>

@@ -29,9 +29,13 @@ while ($msg = $mensajes->fetch_assoc()) {
     <input type="hidden" name="id_tema" value="<?php echo $id_tema; ?>">
     <textarea name="contenido" required></textarea><br>
     <button type="submit">Enviar respuesta</button>
+    <a href="inicio.php" class="enlace-boton">Regresar al inicio</a>
 </form>
 <?php else: ?>
     <p><a href="login.php">Inicia sesión</a> para responder</p>
 <?php endif; ?>
+
+
+
 </body>
 </html>

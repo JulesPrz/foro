@@ -7,14 +7,14 @@
 
 /* LOGIN */
 
-/* body {
+body {
   height: 100vh;
   width: 100vw;
   background-color: #7A9BCF;
   display: flex;
   align-items: center;
   justify-content: center;
-} */
+}
 
 .container {
   width: 80vw;
@@ -129,3 +129,113 @@ a.button-link {
   object-fit: contain;
 }
 
+/* FORO */
+
+.bodyInicio {
+  background-color: #e0f4ff;
+  height: 100vh;
+}
+
+/* Barra lateral (izquierda) */
+.barra-navegacion {
+  width: 25%;
+  background-color: #DDF3FF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3vh 2vw;
+}
+
+.barra-contenido {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2vh;
+}
+
+.titulo-logo {
+  font-size: 6vh;
+  font-weight: 600;
+  color: #303C4C;
+  margin-bottom: 2vh;
+}
+
+.usuario-nombre {
+  font-size: 4vh;
+  color: #333;
+  margin-bottom: 1vh;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5vh;
+  width: 100%;
+  align-items: center;
+}
+
+.nav-btn {
+  background-color: #7a9bcf;
+  color: white;
+  padding: 1vh 1vw;
+  text-decoration: none;
+  border: none;
+  border-radius: 0.8vh;
+  font-size: 2.5vh;
+  width: 70%;
+  text-align: center;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.nav-btn:hover {
+  background-color: #678bc4;
+}
+
+
+.containerInicio {
+  width: 75%;
+  background-color: #ffffff;
+  border-radius: 30px;
+  padding: 4vh 5vw;
+  margin: 5vw;
+  
+}
+
+.temas-recientes h2 {
+  color: #7a9bcf;
+  font-size: 5vh;
+  margin-bottom: 3vh;
+}
+
+.lista-temas {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+}
+
+/* Tarjeta de tema */
+.tema-item {
+  background-color: #b2e5fc;
+  padding: 2vh 2vw;
+  border-radius: 1vh;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.tema-item:hover {
+  transform: translateY(-2px);
+}
+
+.tema-titulo {
+  font-size: 3.5vh;
+  font-weight: bold;
+  color: #1e2b3c;
+  text-decoration: none;
+}
+
+.tema-meta {
+  margin-top: 1vh;
+  font-size: 2vh;
+  color: #2a2a2a;
+}

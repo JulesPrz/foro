@@ -26,7 +26,8 @@
 </header>
 
 
-    <main class="container">
+
+    <main class="containerInicio">
         <section class="temas-recientes">
             <h2>Temas recientes</h2>
             <div class="lista-temas">
